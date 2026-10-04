@@ -1,0 +1,46 @@
+project:
+  type: website
+  output-dir: _site
+
+lang: ko
+
+website:
+  title: "데이터로 미리 보는 내일"
+  description: "공공데이터와 예측모델로 한국 사회의 지금과 앞으로를 읽는 블로그"
+  site-url: "https://daimos08.github.io/data-tomorrow-blog"   # 배포 후 실제 주소로 바꾸세요
+  open-graph: true
+  navbar:
+    left:
+      - href: index.qmd
+        text: 글 목록
+      - href: data.qmd
+        text: 데이터
+      - href: about.qmd
+        text: 소개
+    right:
+      - icon: github
+        href: "https://github.com/YOUR-GITHUB-ID/data-tomorrow-blog"
+      - icon: rss
+        href: index.xml
+  page-footer:
+    left: "© 2026 Han-joon · 글 CC BY 4.0 · 코드 MIT"
+    right: "Quarto로 만들었습니다"
+  # 방문 통계: GoatCounter를 쓰려면 아래 주석을 풀고 계정 이름을 넣으세요 (README 참고)
+  # 또는 Google Analytics:  google-analytics: "G-XXXXXXXXXX"
+
+format:
+  html:
+    theme:
+      light: [cosmo, theme.scss]
+      dark: [cosmo, theme-dark.scss]
+    css: styles.css
+    toc: true
+    toc-title: 목차
+    code-fold: true
+    code-summary: "분석 코드 보기"
+    code-tools: false
+    fig-cap-location: bottom
+    include-in-header: _includes/head.html
+
+execute:
+  freeze: auto   # 한 번 실행한 글은 다시 계산하지 않음 (데이터가 바뀐 글만 다시 렌더링)

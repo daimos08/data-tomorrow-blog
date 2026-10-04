@@ -1,0 +1,15 @@
+---
+title: "데이터로 미리 보는 내일"
+subtitle: "공공데이터로 지금을 읽고, 예측모델로 앞으로를 돌려 봅니다"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: false
+  filter-ui: false
+  feed: true
+  date-format: "YYYY년 M월 D일"
+page-layout: full
+title-block-banner: false
+---
