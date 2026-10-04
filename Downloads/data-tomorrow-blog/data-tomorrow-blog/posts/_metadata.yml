@@ -1,0 +1,4 @@
+# posts 폴더 안의 모든 글에 공통으로 적용되는 설정
+author: "Han-joon"
+title-block-banner: false
+comments: false     # 댓글을 원하면 README의 giscus 설정을 참고하세요
