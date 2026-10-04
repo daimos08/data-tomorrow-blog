@@ -1,0 +1,93 @@
+[
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "블로그를 시작하며: 기계에게 내일을 묻는 이유",
+    "section": "",
+    "text": "일기예보는 매일 틀리는데도 우리는 매일 일기예보를 봅니다. 내일 비가 올지 확실히 알아서가 아니라, 우산을 챙길지 정하는 데 도움이 되기 때문입니다.\n이 블로그의 예측도 같은 쓸모를 지향합니다. 출생아 수, 집값, 동네의 인구, 실종 신고처럼 우리 삶과 맞닿은 숫자를 공공데이터로 모으고, 머신러닝 모델에게 “이대로 가면 어떻게 될까?”를 물어봅니다. 그리고 모델의 답보다 더 중요한 것, 곧 무엇이 그 미래를 바꾸는 손잡이인지를 함께 찾아봅니다."
+  },
+  {
+    "objectID": "posts/welcome/index.html#글은-이런-순서로-씁니다",
+    "href": "posts/welcome/index.html#글은-이런-순서로-씁니다",
+    "title": "블로그를 시작하며: 기계에게 내일을 묻는 이유",
+    "section": "글은 이런 순서로 씁니다",
+    "text": "글은 이런 순서로 씁니다\n\n우리가 겪어 봤을 법한 장면에서 시작합니다.\n지금의 숫자를 보여주고, 흔한 통념과 어긋나는 지점을 짚습니다.\n어떤 데이터로 무엇을 맞히게 했는지 쉬운 비유로 설명합니다.\n모델이 가장 중요하게 본 요인을 보여줍니다.\n세 갈래 미래를 그립니다.\n이 모델이 틀릴 수 있는 이유를 적습니다.\n\n분석 코드는 글마다 접힌 상태로 들어 있습니다. 코드를 보지 않아도 글은 읽히고, 궁금한 분은 펼쳐서 직접 따라 해 볼 수 있습니다."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "데이터로 미리 보는 내일",
+    "section": "",
+    "text": "한 해 실종 신고는 4만 건이 아니라 12만 5천 건이다\n\n\n숫자는 가장 큰데 법은 가장 약한 성인 실종\n\n\n\n실종\n\n공공데이터\n\n안전\n\n\n\n흔히 알려진 ’매년 4만 명’의 출처를 따라가 보면, 법의 보호 바깥에 있는 성인 실종 7만 건이 보입니다.\n\n\n\n\n\n2026년 10월 4일\n\n\nHan-joon\n\n\n\n\n\n\n\n\n\n\n\n\n블로그를 시작하며: 기계에게 내일을 묻는 이유\n\n\n\n\n\n\n안내\n\n\n\n이 블로그가 무엇을, 어떤 방식으로 다루는지 소개합니다.\n\n\n\n\n\n2026년 10월 4일\n\n\nHan-joon\n\n\n\n\n\n일치 없음"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "소개",
+    "section": "",
+    "text": "이 블로그는 대학에서 데이터 과학과 머신러닝을 가르치는 사람이 공공데이터로 직접 예측모델을 만들어 보고, 그 결과를 누구나 읽을 수 있게 풀어 쓰는 곳입니다.\n여기서 다루는 글은 세 가지 원칙을 따릅니다.\n\n숫자의 출처를 밝힙니다. 모든 그래프 아래에 원자료와 기준 시점을 적습니다.\n예측은 단일 정답이 아니라 갈림길로 보여줍니다. “이대로 가면 / 손잡이를 당기면 / 충격이 오면” 세 갈래로 미래를 그립니다.\n틀릴 수 있는 이유를 함께 씁니다. 모델의 한계와 데이터의 빈칸을 숨기지 않습니다.\n\n분석에 쓴 데이터와 코드는 모두 GitHub 저장소에 공개합니다. 다른 해석이나 오류를 발견하시면 저장소의 Issues에 남겨 주세요."
+  },
+  {
+    "objectID": "data.html",
+    "href": "data.html",
+    "title": "데이터",
+    "section": "",
+    "text": "글에 쓴 모든 숫자는 GitHub 저장소의 data/ 폴더에 CSV로 들어 있습니다. 각 파일의 source_id는 같은 폴더의 sources.csv에서 원문 링크를 찾을 수 있습니다."
+  },
+  {
+    "objectID": "data.html#실종-datamissing",
+    "href": "data.html#실종-datamissing",
+    "title": "데이터",
+    "section": "실종 (data/missing/)",
+    "text": "실종 (data/missing/)\n\n\n\n\n\n\n\n\n파일\n내용\n기간\n\n\n\n\nreports_by_year.csv\n성인(가출인)과 실종아동등의 연간 신고 접수 건수\n2011–2025\n\n\nadult_deaths.csv\n성인 실종 중 사망 상태로 발견된 인원\n2016–2025\n\n\nadult_unfound.csv\n성인 실종 신고 연도별 미발견 건수와 집계 시점\n2013–2021\n\n\ncomposition_2025.csv\n2025년 대상별 실종 신고 건수\n2025\n\n\ndementia_reports.csv\n치매환자 실종 신고 건수\n2020, 2022–2025\n\n\nsources.csv\n출처 목록\n–\n\n\n\n\n공개 데이터의 빈칸\n\n성인 실종은 공식 지표 포털에 없어, 경찰청이 국회에 제출한 자료를 인용한 보도에서 옮겼습니다.\n시도·월별 실종 신고, 연령대별 아동 실종, 해제 소요시간은 공개되지 않았습니다. 공공데이터포털의 ’제공신청’으로 요청할 계획입니다."
+  },
+  {
+    "objectID": "data.html#참고할-만한-공개-데이터",
+    "href": "data.html#참고할-만한-공개-데이터",
+    "title": "데이터",
+    "section": "참고할 만한 공개 데이터",
+    "text": "참고할 만한 공개 데이터\n\ne-나라지표: 실종아동등 신고접수 및 처리현황\n공공데이터포털: 행정안전부_실종검색\n서울 열린데이터광장: 서울시 실종아동 현황 통계"
+  },
+  {
+    "objectID": "posts/missing-persons/index.html",
+    "href": "posts/missing-persons/index.html",
+    "title": "한 해 실종 신고는 4만 건이 아니라 12만 5천 건이다",
+    "section": "",
+    "text": "“우리나라에서는 매년 4만 명이 실종된다.” 한 번쯤 들어 봤을 이 숫자는 지금 기준으로 맞지 않습니다. 2025년 경찰에 접수된 실종 신고는 125,383건입니다. 그리고 그 가운데 절반 넘는 신고가, 법이 실종자로 부르지조차 않는 성인들의 것입니다."
+  },
+  {
+    "objectID": "posts/missing-persons/index.html#만-명은-어디서-왔을까",
+    "href": "posts/missing-persons/index.html#만-명은-어디서-왔을까",
+    "title": "한 해 실종 신고는 4만 건이 아니라 12만 5천 건이다",
+    "section": "’4만 명’은 어디서 왔을까",
+    "text": "’4만 명’은 어디서 왔을까\n경찰 통계에서 ’실종’이라는 말은 법으로 정한 대상에게만 쓰입니다. 18세 미만 아동, 지적·자폐성·정신장애인, 치매환자를 묶은 실종아동등입니다. 이 집단의 신고는 2011년 43,080건이었습니다. 우리가 기억하는 ’4만 명’은 아마 이 무렵의 숫자일 것입니다.\n그런데 18세 이상 성인이 사라지면, 범죄 혐의가 없는 한 경찰은 이를 가출인으로 분류합니다. 이 숫자는 공식 지표 포털에 나오지 않습니다. 국회 의원실이 경찰청에서 받아 공개한 자료로만 확인할 수 있고, 그렇게 이어 붙여 보면 성인 실종은 실종아동등보다 늘 많았습니다.\n\n\n분석 코드 보기\nfig = go.Figure()\nfig.add_scatter(x=adult.index, y=adult.values, name=\"성인(가출인)\", mode=\"lines+markers\",\n                line=dict(color=ACCENT, width=3), hovertemplate=\"%{y:,}건\")\nfig.add_scatter(x=kids.index, y=kids.values, name=\"실종아동등\", mode=\"lines+markers\",\n                line=dict(color=COOL, width=3), hovertemplate=\"%{y:,}건\")\nfig.add_hline(y=40000, line_dash=\"dot\", line_color=GREY,\n              annotation_text=\"흔히 말하는 '매년 4만 명'\", annotation_position=\"top left\")\nstyle(fig).show()\n\n\n        \n        \n        \n\n\n                            \n                                            \n\n\n성인 실종(가출인)과 실종아동등의 연간 신고 접수 건수\n\n출처: 실종아동등 — e-나라지표(경찰청). 성인 — 경찰청 국회 제출자료 인용 보도. 세부 출처는 data/missing/sources.csv.\n\n두 숫자 모두 사람 수가 아니라 신고 건수라는 점도 기억해야 합니다. 한 사람이 여러 번 신고될 수 있고, 대부분의 신고는 금방 해제됩니다. 실종아동등은 2024년 신고의 95.1%가 이틀 안에 해제됐고, 성인 실종도 2026년 1~7월 신고의 절반 이상이 한 시간 안에 해제됐습니다."
+  },
+  {
+    "objectID": "posts/missing-persons/index.html#누가-사라지는가",
+    "href": "posts/missing-persons/index.html#누가-사라지는가",
+    "title": "한 해 실종 신고는 4만 건이 아니라 12만 5천 건이다",
+    "section": "누가 사라지는가",
+    "text": "누가 사라지는가\n\n\n분석 코드 보기\nm = mix.sort_values(\"reports\")\ncolors = [ACCENT if g == \"성인(가출인)\" else COOL for g in m.group]\nfig = go.Figure(go.Bar(x=m.reports, y=m.group, orientation=\"h\", marker_color=colors,\n                       text=[f\"{v:,}건 ({v/m.reports.sum()*100:.1f}%)\" for v in m.reports],\n                       textposition=\"outside\", cliponaxis=False, hovertemplate=\"%{x:,}건&lt;extra&gt;&lt;/extra&gt;\"))\nfig = style(fig, 300)\nfig.update_layout(hovermode=\"closest\", margin=dict(r=110))\nfig.update_xaxes(dtick=None, showticklabels=False, showgrid=False)\nfig.show()\n\n\n                            \n                                            \n\n\n2025년 대상별 실종 신고 건수\n치매환자 실종은 고령화와 함께 꾸준히 늘고 있습니다. 2022년 14,527건에서 2025년 16,586건으로 4년 연속 증가했고, 48시간 넘게 찾지 못한 장기 실종 223건 가운데 71.7%가 치매가 원인이었습니다. 실종을 막는 핵심 제도인 지문 사전등록률은 도입 14년째에도 50% 남짓에 머물러 있습니다.\n\n\n분석 코드 보기\nfig = go.Figure(go.Bar(x=dementia.year, y=dementia.reports, marker_color=COOL,\n                       text=[f\"{v:,}\" for v in dementia.reports], textposition=\"outside\",\n                       cliponaxis=False, hovertemplate=\"%{y:,}건&lt;extra&gt;&lt;/extra&gt;\"))\nfig = style(fig, 300)\nfig.update_layout(hovermode=\"closest\")\nfig.update_xaxes(dtick=1)\nfig.show()\n\n\n                            \n                                            \n\n\n치매환자 실종 신고 건수 (2021년은 공개 수치 없음)"
+  },
+  {
+    "objectID": "posts/missing-persons/index.html#찾지-못한-사람들",
+    "href": "posts/missing-persons/index.html#찾지-못한-사람들",
+    "title": "한 해 실종 신고는 4만 건이 아니라 12만 5천 건이다",
+    "section": "찾지 못한 사람들",
+    "text": "찾지 못한 사람들\n아동과 성인의 차이는 ’끝내 찾지 못한 사람’에서 가장 크게 드러납니다.\n아동은 2025년 신고 29,563건 가운데 99%가 발견·해제됐고, 연말에 남은 사건도 추적이 이어지며 한 자릿수까지 줄어듭니다. 장기 실종아동 1,335건 중 88%는 20년 넘은 과거 사건입니다. 휴대전화와 CCTV, 사전등록 제도가 생긴 뒤로는 새 실종이 장기 미해결로 남는 일이 드물어졌다는 뜻입니다.\n성인은 다릅니다. 매년 수백 건이 몇 년이 지나도 해제되지 않고, 5년 넘게 풀리지 않은 실종 미제 6,361명 중 4,880명(76.7%)이 성인입니다. 해마다 1천 명 안팎은 숨진 채 발견됩니다.\n\n\n분석 코드 보기\nfig = go.Figure()\nfig.add_scatter(x=deaths.year, y=deaths.deaths_found, name=\"사망 상태로 발견(명)\",\n                mode=\"lines+markers\", line=dict(color=ACCENT, width=3), hovertemplate=\"%{y:,}명\")\nu21 = unfound[unfound.counted_as_of == \"2021\"]\nfig.add_scatter(x=u21.report_year, y=u21.unfound, name=\"미발견(2021년 집계, 건)\",\n                mode=\"lines+markers\", line=dict(color=COOL, width=3, dash=\"dash\"), hovertemplate=\"%{y:,}건\")\nother = unfound[unfound.counted_as_of.isin([\"2018-08\", \"2022-06\"]) &\n                ~((unfound.counted_as_of == \"2018-08\") & (unfound.report_year &gt;= 2016))]\nfig.add_scatter(x=other.report_year, y=other.unfound, name=\"미발견(다른 시점 집계, 건)\",\n                mode=\"markers\", marker=dict(color=\"white\", size=9, line=dict(color=COOL, width=2)),\n                hovertemplate=\"%{y:,}건\")\nstyle(fig).show()\n\n\n                            \n                                            \n\n\n성인 실종 중 사망 상태로 발견된 인원과 미발견 건수\n\n\n\n\n\n\n노트이 그래프를 읽을 때\n\n\n\n미발견 건수는 시간이 지날수록 줄어드는 값입니다. 같은 2017년 신고분도 2018년 8월에는 1,291건, 2021년에는 487건이 미발견으로 집계됐습니다. 그래서 연도끼리 비교하려면 “신고 후 1년 시점의 미해제 건수”처럼 같은 기준으로 다시 집계한 자료가 필요합니다. 2022년 이후 연도별 미발견 수치는 아직 공개되지 않았습니다."
+  },
+  {
+    "objectID": "posts/missing-persons/index.html#왜-성인은-찾기-어려운가",
+    "href": "posts/missing-persons/index.html#왜-성인은-찾기-어려운가",
+    "title": "한 해 실종 신고는 4만 건이 아니라 12만 5천 건이다",
+    "section": "왜 성인은 찾기 어려운가",
+    "text": "왜 성인은 찾기 어려운가\n이유는 데이터가 아니라 법에 있습니다. 실종 경보 문자, 영장 없는 CCTV 확인, 휴대전화 위치 추적 같은 수단은 실종아동등에게만 쓸 수 있습니다. 성인은 헌법상 거주 이전의 자유와 자기결정권 때문에, 범죄 정황이 없으면 경찰이 강제로 소재를 확인하기 어렵습니다. 실종 경보는 효과가 확인된 수단입니다. 2024년 아동·장애인·치매환자 발견자의 22.3%가 경보 문자를 본 시민의 제보로 돌아왔습니다.\n성인 실종을 다루는 법안은 여러 차례 발의됐지만 아직 통과되지 않았습니다. 사생활 보호와 신속한 수색 사이의 균형을 어디에 둘지가 쟁점입니다."
+  },
+  {
+    "objectID": "posts/missing-persons/index.html#예측모델로-무엇을-할-수-있을까",
+    "href": "posts/missing-persons/index.html#예측모델로-무엇을-할-수-있을까",
+    "title": "한 해 실종 신고는 4만 건이 아니라 12만 5천 건이다",
+    "section": "예측모델로 무엇을 할 수 있을까",
+    "text": "예측모델로 무엇을 할 수 있을까\n공개된 데이터는 전국 단위의 연도별 합계뿐이라, 지금 할 수 있는 예측은 제한적입니다. 시도·월별 접수 건수가 공개된다면 다음과 같은 모델이 가능합니다.\n\n신고 수요 예측: 다음 1~3개월, 어느 지역에서 어떤 대상의 신고가 늘지 예측해 인력과 경보 운영을 미리 준비합니다.\n치매 실종 시나리오: 시도별 고령 인구와 치매 유병 추정치를 연결해 2030~2035년을 내다봅니다.\n정책 효과 추정: 사전등록률이나 배회감지기 보급 같은 정책이 실종 신고와 장기 실종을 얼마나 줄였는지 지역 간 차이로 추정합니다.\n\n이 데이터를 요청하는 과정과 첫 모델 결과는 다음 글에서 이어 가겠습니다.\n\n\n\n\n\n\n중요도움이 필요하다면\n\n\n\n가족이 실종됐다면 즉시 112에 신고하세요. 아동과 치매환자의 지문·사진 사전등록은 경찰청 ‘안전Dream’ 앱이나 가까운 경찰서에서 할 수 있습니다. 마음이 힘든 분은 자살예방 상담전화 109에서 언제든 이야기를 나눌 수 있습니다.\n\n\n\n데이터와 코드: 이 글의 모든 숫자는 저장소의 data/missing/ 폴더에 있고, 그래프를 그린 코드는 위의 ’분석 코드 보기’를 펼치면 볼 수 있습니다. 숫자는 공식 지표 페이지와 경찰청 자료를 인용한 보도에서 옮겼으므로, 원자료와 다른 점을 발견하시면 알려 주세요."
+  }
+]
