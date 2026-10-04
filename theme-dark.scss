@@ -1,0 +1,15 @@
+/*-- scss:defaults --*/
+$font-family-sans-serif: "IBM Plex Sans KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+$font-family-monospace: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+$body-bg: #12171D;
+$body-color: #E6EAEE;
+$primary: #E8894A;
+$link-color: #86A6C6;
+$navbar-bg: #1A2129;
+$navbar-fg: #E6EAEE;
+$font-size-root: 17px;
+$line-height-base: 1.75;
+
+/*-- scss:rules --*/
+h1, h2, h3 { font-weight: 700; letter-spacing: -0.01em; text-wrap: balance; }
+.navbar { border-bottom: 1px solid #2C3540; }

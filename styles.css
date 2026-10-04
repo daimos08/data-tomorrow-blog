@@ -1,0 +1,19 @@
+/* 요약 수치 카드 */
+.stat-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 12px; margin: 1.5rem 0; }
+.stat { border: 1px solid rgba(127,127,127,.25); border-radius: 6px; padding: 14px 16px; display: flex; flex-direction: column; gap: 2px; }
+.stat .v { font-family: "IBM Plex Mono", monospace; font-size: 1.6rem; font-weight: 500; font-variant-numeric: tabular-nums; }
+.stat .k { font-size: .85rem; opacity: .75; }
+.stat.hot { border-color: #C9661F; }
+
+/* 글 안의 '데이터 메모' 상자 */
+.callout.callout-style-default { border-radius: 6px; }
+
+/* 표 숫자 정렬 */
+table td, table th { font-variant-numeric: tabular-nums; }
+
+/* 그래프 아래 출처 */
+.figure-source { font-size: .8rem; opacity: .7; margin-top: -0.5rem; }
+
+/* 카드 안 텍스트를 세로로 쌓기 */
+.stat p { display: flex; flex-direction: column; gap: 2px; margin: 0; }
+.figure-title { display: block; font-size: .9rem; font-weight: 500; margin-top: -0.25rem; }
